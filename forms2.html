@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Usuários</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <a href="index.html">Home</a>
-    <h1>Cadastro de Usuário</h1>
+    <h1>Login</h1>
     <form>
         <label for="user">Usuário:</label>
-        <input type="text" id="user" placeholder="nome de usuário">
+        <input type="text" id="user" placeholder="Nome de usuário">
         <br>
-        <label for="pass">Senha:</label>
-        <input type="password" id="pass">
+        <label style="color: red;" for="pass">Senha:</label>
+        <input type="password" id="pass" placeholder="Digite sua senha">
         <br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
+        <button class="botaoenvio" type="submit">Enviar</button>
+        <button class="botaoapagar" type="reset">Limpar</button>
     </form>
     
 </body>
